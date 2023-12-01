@@ -1,4 +1,5 @@
 export interface Product {
+  key: string // Document's id
   id: number
   productName: string
   productDescription?: string
@@ -11,5 +12,3 @@ export interface Product {
   projectName: string
   projectNo: number
 }
-
-export type Products = Product[]
